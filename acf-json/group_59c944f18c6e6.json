@@ -1,0 +1,142 @@
+{
+    "key": "group_59c944f18c6e6",
+    "title": "About Page Info",
+    "fields": [
+        {
+            "key": "field_59c9472491f53",
+            "label": "Church Mission",
+            "name": "church_mission",
+            "type": "text",
+            "instructions": "Enter the Church Mission in Here...",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "A PASSION TO FOLLOW JESUS",
+            "placeholder": "Church Mission",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59c9479291f54",
+            "label": "Short Description",
+            "name": "short_description",
+            "type": "wysiwyg",
+            "instructions": "A Short Description about the church",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 1
+        },
+        {
+            "key": "field_59c947db91f55",
+            "label": "Pastors Description",
+            "name": "pastors_description",
+            "type": "wysiwyg",
+            "instructions": "A Short description about the pastors..",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 1
+        },
+        {
+            "key": "field_59c9491d91f57",
+            "label": "Pastors Images..",
+            "name": "pastors_images",
+            "type": "repeater",
+            "instructions": "Add Pastors Image here..",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_59c9494091f58",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_59c9494091f58",
+                    "label": "Pastor Image",
+                    "name": "pastor_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": 321,
+                    "min_height": 390,
+                    "min_size": "",
+                    "max_width": 321,
+                    "max_height": 390,
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "43"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1506363607
+}

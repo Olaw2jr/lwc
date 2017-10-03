@@ -1,0 +1,72 @@
+.navbar-brand {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  
+  small {
+    display: block;
+    font-size: 10px;
+  }
+}
+
+ul#menu-menu-1 {
+  font-weight: 600;
+}
+
+// *******************************************************************
+/************************* Page title *******************************/
+
+.breadcrumb {
+  background-color: #fff; 
+}
+
+a {
+
+  .nav-link {
+    
+    &:active {
+      border-bottom: 1px solid;
+    }
+  }
+}
+
+.Page-title {
+  &.horizontal-title {
+    text-align: left;
+
+    > div {
+      text-align: right;
+      padding-left: 10%;
+
+      > h4 {
+        font-size: 30px;
+        margin: 0 0 6px;
+        text-transform: uppercase;
+      }
+
+      > span {
+        font-size: 12px;
+        letter-spacing: 3px;
+      }
+
+    }
+
+    > * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    > img {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    > p {
+      width: 55%;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 30px;
+      margin: 0;
+    }
+  }
+}
+

@@ -1,0 +1,174 @@
+{
+    "key": "group_59c9497fca7de",
+    "title": "Contact Page Info",
+    "fields": [
+        {
+            "key": "field_59c94bd07651a",
+            "label": "Short Contact Info",
+            "name": "short_contact_info",
+            "type": "textarea",
+            "instructions": "A Short Info We Should no before contacting you",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_59c94ece7651b",
+            "label": "Phone Number",
+            "name": "phone_number",
+            "type": "repeater",
+            "instructions": "Add Phone Numbers",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_59c94fab7651c",
+                    "label": "First Phone Number",
+                    "name": "first_phone_number",
+                    "type": "text",
+                    "instructions": "Add Phone Number",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_59c94fe27651d",
+            "label": "Email Address",
+            "name": "email_address",
+            "type": "text",
+            "instructions": "Your Email Address",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Email Address",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59c950127651e",
+            "label": "Church Location",
+            "name": "church_location",
+            "type": "text",
+            "instructions": "Add the Location Of the church",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Location",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59c950467651f",
+            "label": "Location In Google Map",
+            "name": "location_in_google_map",
+            "type": "google_map",
+            "instructions": "Show Location on Google Map",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "-6.739496",
+            "center_lng": "39.20637",
+            "zoom": "",
+            "height": ""
+        },
+        {
+            "key": "field_59ca459d368ba",
+            "label": "The Contact Form",
+            "name": "the_contact_form",
+            "type": "wysiwyg",
+            "instructions": "Short Code From Contact Form",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "49"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1506428840
+}

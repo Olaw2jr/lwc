@@ -1,0 +1,38 @@
+.carousel-caption {
+  text-align: right;
+}
+
+
+.title-heading1 {
+  text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 60px !important;
+
+  & h6 {
+    text-transform: uppercase;
+    font-size: 1.5rem !important;
+  }
+
+  & :after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    margin-left: -40px;
+    height: 2px;
+    background: #3483de;
+  }
+}
+
+.list-group-item {
+  .media {
+    .media-body {
+      & p {
+        font-size: 0.9rem !important;
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}

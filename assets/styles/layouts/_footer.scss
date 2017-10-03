@@ -1,0 +1,42 @@
+.footer.footer-dark {
+  background: #212121;
+
+  .social-icons {
+
+    li {
+      padding-right: 20px;
+
+      a {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.9rem;
+        text-transform: capitalize;
+
+        i {
+          position: relative;
+          // border-right: 1px solid rgba(255, 255, 255, 0.6);
+          // text-align: center;
+          // padding-right: 10px;
+          // margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  h4 {
+    display: inline-block;
+    padding-right: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+
+    i {
+      margin-right: 8px;
+    }
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

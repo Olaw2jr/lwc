@@ -1,0 +1,167 @@
+{
+    "key": "group_59c43974220aa",
+    "title": "Sermon Info",
+    "fields": [
+        {
+            "key": "field_59c80272c5128",
+            "label": "Speaker Image",
+            "name": "speaker_image",
+            "type": "image",
+            "instructions": "Add the Passport image of the Speaker (150 * 150).",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 150,
+            "min_height": 150,
+            "min_size": "",
+            "max_width": 400,
+            "max_height": 400,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_59c439d3eb2d7",
+            "label": "Sermon Speaker",
+            "name": "sermon_speaker",
+            "type": "text",
+            "instructions": "Name of Sermon Speaker",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "70",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Sermon Speaker",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59c43a2feb2d8",
+            "label": "YouTube Video",
+            "name": "youtube_video",
+            "type": "oembed",
+            "instructions": "Add the Url to a YouTube Video",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
+        },
+        {
+            "key": "field_59c43a97eb2d9",
+            "label": "SoundCloud Audio",
+            "name": "soundcloud_audio",
+            "type": "oembed",
+            "instructions": "Add the URL to a soundcloud audio or playlist",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
+        },
+        {
+            "key": "field_59c43af4eb2da",
+            "label": "Sermon PDF",
+            "name": "sermon_pdf",
+            "type": "file",
+            "instructions": "Upload Sermon PDF Here (Only PDF Allowed)..",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "pdf"
+        },
+        {
+            "key": "field_59c803b68197a",
+            "label": "Start Time",
+            "name": "start_time",
+            "type": "date_time_picker",
+            "instructions": "The Day and Time that the sermon took place",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y g:i a",
+            "return_format": "F j, Y g:i a",
+            "first_day": 1
+        },
+        {
+            "key": "field_59c80344c5129",
+            "label": "Sermon Location",
+            "name": "sermon_location",
+            "type": "text",
+            "instructions": "The Place to which the sermon took place",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sermon"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "excerpt",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1506282693
+}

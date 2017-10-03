@@ -1,0 +1,972 @@
+.modal-body {
+    .embed-responsive {
+        & iframe {
+            @extend .embed-responsive-item;
+        }
+    }
+}
+
+//********************************************************************
+// Front Page Sermons Styles **********************************
+/*********************************************************************/
+
+.block {
+    padding: 5rem 0;
+    position: relative;
+}
+
+.title-2 {
+    text-align: center;
+}
+
+
+// **********************************************************
+
+.sermons-inner {
+    margin-top: 50px;
+}
+
+// ***********************************************************
+.sermons-post-details {
+    text-align: right;
+
+    > h2 {
+        letter-spacing: 1px;
+        line-height: 38px;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+
+    > p {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+}
+
+.tags-date {
+    margin-top: 25px;
+
+    > span {
+        font-size: 12px;
+        text-transform: uppercase;
+
+        > i {
+            .fa {
+                margin-right: 8px;
+            }
+        }
+
+        + span {
+            margin-left: 40px;
+        }
+        
+    }
+}
+
+// ************************************************************
+
+.sermon-item-over {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    position: absolute;
+    right: 15px;
+    background-color: #fafafa;
+    bottom: 10px;
+
+    > div {
+        border-right: 1px solid #f6f6f6;
+        display: inline-block;
+        padding: 30px 40px;
+        text-align: center;
+        vertical-align: middle;
+
+        &:last-child, :first-child {
+            border-right: 0 none;
+        }
+
+        > h4 {
+            color: #fff;
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        > a {
+            display: block;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+.sermon-item-over {
+
+    > div {
+
+        &:first-child {
+            padding-left: 55px;
+            padding-right: 65px;
+            text-align: left;
+            padding-top: 31px;
+            padding-bottom: 31px;
+
+            > span {
+                color: #fff;
+                font-size: 11px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.sermon-bottom-area {
+    position: relative;
+    z-index: 9;
+    margin-top: 70px;
+}
+
+
+/***************** About Us Page **************************************/
+
+.about-us-page > .chruch-mission {
+    padding-bottom: 70px;
+}
+
+.chruch-mission {
+    float: left;
+    position: relative;
+}
+
+.chruch-mission-top, .title-1 {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.title-1 > h4 {
+    font-size: 36px;
+    line-height: 38px;
+    margin-top: 0;
+    letter-spacing: 3px;
+}
+
+.title-1 > h4 > span {
+    display: block;
+    font-size: 24px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.title-1 > span {
+    /* font-size: 12px; */
+    /* color: #888; */
+    letter-spacing: 8px;
+}
+
+.chruch-mission-top > p {
+    display: inline-block;
+    letter-spacing: 0.3px;
+    margin-top: 25px;
+    max-width: 64%;
+    width: 100%;
+}
+
+.chruch-mission .signature {
+    clear: both;
+    display: block;
+    margin-top: 30px;
+}
+
+
+// Second Part
+
+.meet-senior-area {
+    margin-top: 50px;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.meet-member-details {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: -30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.meet-member-details > h3 {
+    margin: 0;
+}
+
+.meet-member-details > h3 > a {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.meet-member-details > h5 {
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+
+//**************************** Font Page Event List ***************************************
+// ***************************************************************************************//
+
+.event-style .conf-event-area {
+    border-bottom: none;
+}
+
+.conf-event-area {
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+
+    > div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.conf-event-area::before {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    bottom: 0;
+    content: "";
+    left: 70px;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.conf-img {
+    width: 25%;
+
+    > img {
+        float: right;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }
+}
+
+.conf-date-host {
+    width: 20%;
+    text-align: center;
+
+    > span {
+        &.conf-date {
+            display: block;
+            line-height: 26px;
+            text-transform: uppercase;
+
+            > i {
+                font-size: 45px;
+                display: block;
+                font-style: normal;
+                padding-bottom: 12px;
+            }
+        }
+    }
+}
+
+.conf-event-area > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.conf-title {
+    width: 27%;
+    position: relative;
+    padding-left: 30px;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: -25px;
+        top: 15px;
+        background-color: #464646;
+        width: 1px;
+        height: 50px;
+    }
+
+    > h3 {
+        font-size: 17px;
+        line-height: 26px;
+        margin-top: 0;
+    }
+}
+
+
+
+.event-style .conf-date-host > span.conf-host > i, .event-style .conf-title > span > i {
+    margin-right: 4px;
+}
+
+.conf-date-host > span.conf-host > i, .conf-title > span > i {
+    margin-right: 5px;
+}
+
+.conf-link {
+    width: 26%;
+    text-align: center;
+}
+
+
+//************************ Contact Page Styles ***********************************//
+//**********************************************************************************
+
+#lwc-map {
+    width: 100%;
+    height: 485px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+    img {
+        max-width: inherit !important;
+    }
+}
+
+.contact-map-details {
+    margin-top: 15px;
+    margin-left: 70px;
+
+    > h4 {
+        font-size: 30px;
+        margin: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #444;
+    }
+
+    > p {
+        font-style: italic;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+}
+
+.contact-details-sec {
+    margin-top: 15px;
+
+    > .details {
+        margin-top: 40px;
+
+        &:after {
+            content: " ";
+            display: table;
+            clear: both;
+        }
+
+        > span {
+            float: left;
+            width: 56px;
+            height: 56px;
+            line-height: 50px;
+            border: 2px solid;
+            text-align: center;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            font-size: 22px;
+            margin-right: 25px;
+        }
+
+        > .right-area {
+            float: left;
+
+            > h5 {
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-bottom: 7px;
+                font-size: 15px;
+                letter-spacing: 0.3px;
+                margin-top: 9px;
+            }
+
+            > span {
+                font-size: 13px;
+
+                .sep {
+                    margin-left: 12px;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}
+
+
+.wpcf7-form-control {
+    @extend .form-control;
+}
+
+.wpcf7-not-valid-tip {
+    @extend .invalid-feedback;
+}
+
+.wpcf7-response-output {
+    @extend .alert;
+    @extend .alert-secondary;
+}
+
+//******************************** Books and Devotion ******************************/
+//**********************************************************************************
+.chruch-devotions-inner {
+    margin-top: 40px;
+
+    .chruch-devotion {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 70px;
+
+        img {
+            width: 270px;
+            height: auto;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+        }
+
+        .chruch-devotion-over {
+            position: absolute;
+            background-color: #fff;
+            // padding: 35px 40px 35px 40px;
+            padding: .6rem 0;
+            z-index: 3;
+            // bottom: -115px;
+            // left: 100px;
+            width: 100%;
+
+            .price-sec {
+                > .d-price {
+                    @extend .text-muted;
+                    font-size: 13px;
+                    display: inline-block;
+                    margin-right: 4px;
+                    text-decoration: none;
+                }
+            
+                > .o-price {
+                    font-size: 11px;
+                }
+            }
+
+            > h4 {
+                font-size: 15px;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+
+            > span {
+                @extend .text-muted;
+                font-size: 11px;
+                display: block;
+                margin-top: 10px;
+                text-transform: uppercase;
+            }
+
+            > a {
+                font-size: 14px;
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border: 1px solid rgba(0,0,0,.125);
+                border-radius: .25rem;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+
+//********************************************** Singel Sermons Page ******************************************************//
+//*************************************************************************************************************************//
+.sd-img {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.sd-overlay {
+    position: absolute;
+    bottom: -40px;
+    z-index: 2;
+    left: 0;
+    right: 45px;
+    line-height: 69px;
+    background-color: #fafafa;
+
+    &:before {
+        content: "";
+        top: 0;
+        bottom: 0;
+        width: calc(100% + 100%);
+        background-color: #fafafa;
+        position: absolute;
+        left: -200%;
+    }
+
+    > span {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-left: 40px;
+        padding-right: 40px;
+        position: relative;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        > * {
+            font-style: normal;
+
+            &:not(strong) {
+                margin-left: 6px;
+            }
+        }
+
+        + span {
+            
+            &:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                width: 1px;
+                height: 16px;
+                background-color: #e0e0e0;
+                top: 50%;
+                margin-top: -8px;
+            }
+        }
+    }
+}
+
+.sd-head {
+    float: left;
+    margin-top: 95px;
+    width: 100%;
+
+    > h1 {
+        margin: 0;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .sd-head-inner {
+        margin-top: 30px;
+
+        > div {
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: #fafafa;
+
+            &:first-child {
+                padding-left: 0px;
+                background-color: #fff;
+                padding-top: 0;
+                padding-bottom: 0;
+
+                > * {
+                    float: left;
+                }
+
+                > i {
+                    display: block;
+                    margin-right: 12px;
+                    font-size: 3rem;
+                    // margin-right: .6rem;
+                }
+
+                > div {
+                    margin-top: 12px;
+
+                    > h2 {
+                        font-size: 15px;
+                        text-transform: uppercase;
+                        margin: 0;
+                    }
+
+                    > span {
+                        display: block;
+                        margin-top: 4px;
+                        font-size: 11px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            &:not(:first-child) {
+                line-height: 53px;
+
+                > a {
+                    text-transform: uppercase;
+
+                    > i {
+                        margin-right: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.entry-content {
+    @extend .mt-5;
+    float: left;
+    width: 100%;
+
+    > h3 {
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-top: 50px;
+        @extend .mb-3
+    }
+
+    > p {
+        line-height: 30px;
+    }
+}
+
+
+//********************* Single Event Page ******************************************************************//
+//***********************************************************************************************************//
+
+.ed-head {
+    @extend .pt-4;
+
+    > h1 {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0;
+        text-transform: uppercase;
+        padding-left: 90px;
+        padding-right: 120px;
+    }
+
+    .location {
+        padding-left: 90px;
+        font-size: 13px;
+        display: block;
+        margin-top: 15px;
+
+        > i {
+            margin-right: 6px;
+            padding-left: 2px;
+        }
+    }
+
+    .ed-countdown {
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 65px;
+        padding-left: 225px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+
+        > * {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        > .ed-date {
+            display: inline-block;
+            padding: 34px;
+            @extend .bg-primary;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+            color: #fff;
+            position: absolute;
+            left: 60px;
+            top: -22px;
+
+            > span {
+                display: block;
+                text-align: center;
+
+                &:first-child {
+                    font-size: 12px;
+                    text-transform: uppercase;
+
+                    > i {
+                        &:not(.fa) {
+                            font-size: 40px;
+                            font-weight: 700;
+                            font-style: normal;
+                            display: block;
+                        }
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    font-size: .8rem;;
+                    margin-top: .4rem;
+
+                    > i {
+                        margin-right: .3rem;
+                    }
+                }
+
+                a {
+                    color: inherit;
+                    font-family: inherit;
+                }
+
+                .sep {
+                    margin-left: .3rem;
+                    margin-right: .3rem;
+                }
+            }
+        }
+
+        div {
+
+            &#count-down {
+                display: inline-block;
+                width: 75%;
+
+                &.is-countdown {
+                    background-color: transparent;
+                    border: medium none;
+
+                    &:before, .countdown-row:before {
+                        content: "";
+                        display: table;
+                    }
+
+                    &:after, .countdown-row:after {
+                        clear: both;
+                    }
+
+                    .countdown-row {
+                        clear: both;
+                        width: 100%;
+                        padding: 0px 2px;
+                        text-align: center;
+
+                        .countdown-section {
+                            float: left;
+                            padding: 0 25px;
+                            position: relative;
+
+                            &:first-child {
+                                padding-left: 0;
+                            }
+
+                            &:last-child {
+                                padding-right: 0;
+
+                                &:before {
+                                    display: none;
+                                }
+                            }
+
+                            > .countdown-amount{
+                                font-size: 35px;
+                            }
+
+                            > .countdown-period{
+                                font-size: 12px;
+                                font-weight: 700;
+                                text-transform: uppercase;
+                                float: left;
+                                width: 100%;
+                            }
+
+                            &:before{
+                                content: ":";
+                                position: absolute;
+                                font-size: 28px;
+                                right: 0;
+                                top: 50%;
+                                -webkit-transform: translateY(-50%) ;
+                                -moz-transform: translateY(-50%) ;
+                                -ms-transform: translateY(-50%) ;
+                                -o-transform: translateY(-50%) ;
+                                transform: translateY(-50%) ;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* jQuery Countdown styles 2.0.0. */
+
+.countdown-show4 .countdown-section {
+	width: 24.5%;
+}
+
+.countdown-section {
+	display: block;
+	float: left;
+	font-size: 85%;
+	text-align: center;
+}
+
+.countdown-amount {
+    font-size: 200%;
+}
+
+.countdown-period {
+    display: block;
+}
+
+
+/*********************************************** this is the 404 page CSS ****************************************************************/
+.paddlr100 {
+    padding: 0 100px;
+}
+
+.error-page {
+    float: left;
+    position: relative;
+    width: 100%;
+
+    > img {
+        width: 100%;
+    }
+
+    .error-page-inner {
+        background: rgba(1, 6, 15, 0.7) none repeat scroll 0 0;
+        border: 1px dashed #fff;
+        bottom: 20px;
+        left: 70px;
+        padding: 65px 165px;
+        position: absolute;
+        text-align: center;
+        top: 20px;
+        width: 685px;
+
+        > h4 {
+            color: #fff;
+            font-family: montserrat;
+            font-size: 130px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            margin: 0;
+        }
+
+        > strong {
+            color: #fff;
+            float: left;
+            font-family: lora;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            margin-top: -17px;
+            padding-bottom: 65px;
+            position: relative;
+            width: 100%;
+
+            &::before {
+                border-left: 1px solid rgba(151, 151, 151, 0.6);
+                border-right: 1px solid rgba(151, 151, 151, 0.6);
+                bottom: 11px;
+                content: "";
+                height: 33px;
+                left: 50%;
+                position: absolute;
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+                width: 9px;
+            }
+
+            &::after {
+                background: #999 none repeat scroll 0 0;
+                bottom: 17px;
+                content: "";
+                height: 33px;
+                left: 50%;
+                position: absolute;
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+                width: 1px;
+            }
+        }
+
+        > span {
+            color: #fff;
+            float: left;
+            font-size: 16px;
+            letter-spacing: 1px;
+            width: 100%;
+        }
+
+        > i {
+            color: #fff;
+            float: left;
+            font-family: lora;
+            font-size: 16px;
+            letter-spacing: 0.3px;
+            margin-top: 5px;
+            width: 100%;
+        }
+
+        > a {
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            margin-top: 35px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.search-found-inner {
+    float: left;
+    width: 100%;
+
+    > h4 {
+        float: left;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        margin-bottom: 15px;
+        margin-top: 0;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    > span {
+        color: #666;
+        font-family: arimo;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+    }
+}
+

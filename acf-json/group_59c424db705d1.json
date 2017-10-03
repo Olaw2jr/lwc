@@ -1,0 +1,93 @@
+{
+    "key": "group_59c424db705d1",
+    "title": "Events Info",
+    "fields": [
+        {
+            "key": "field_59c4253197178",
+            "label": "Event Location",
+            "name": "event_location",
+            "type": "text",
+            "instructions": "Add Where the Event will be held...",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "LIVING WATER CENTER - KAWE",
+            "placeholder": "Event Location",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59c425a297179",
+            "label": "Date of the Event",
+            "name": "date_of_the_event",
+            "type": "date_picker",
+            "instructions": "Select the date of the Event",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "F j, Y",
+            "first_day": 1
+        },
+        {
+            "key": "field_59c426139717a",
+            "label": "Event Organizer",
+            "name": "event_organizer",
+            "type": "text",
+            "instructions": "Add the Name of the Event Organizer...",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Event Organizer",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1506031777
+}
